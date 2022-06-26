@@ -638,11 +638,13 @@ header .current::after {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
   .hero {
     min-height: 600px;
     background-size: cover;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/baner.jpg");
+    /* background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/baner.jpg"); */
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/Img.jpg");
+    background-position: unset;
   }
 }
 
